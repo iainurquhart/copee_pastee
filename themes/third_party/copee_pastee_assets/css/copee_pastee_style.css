@@ -1,0 +1,18 @@
+table.matrix {-webkit-user-select: auto !important; -moz-user-select: auto !important;} 
+.clipboard:hover {cursor: pointer !important; } 
+object, embed {background: green; opacity: 0.1;}
+.row-counter {
+	text-align: center;
+	-webkit-border-radius: 2.5em; 
+	-moz-border-radius: 2.5em;
+	width: 80%;
+	margin: 0 auto;
+	background: gray;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+	padding: 7px 10px;
+}
+
+.row-identifier {display: none;}	
+
+.copee-notification {float: left; display: none; margin-top: 7px;}
