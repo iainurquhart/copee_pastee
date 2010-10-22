@@ -15,7 +15,7 @@
 	{
 		var $info = array(
 			'name'		=> 'Copee Pastee',
-			'version'	=> '1.2'
+			'version'	=> '1.2.1'
 		);
 
 		public function Copee_pastee_ft()
@@ -42,7 +42,6 @@
 			{
 				// include matrix_text.js
 				$this->EE->cp->add_to_foot('<script src="'.$theme_url.'third_party/copee_pastee_assets/js/ZeroClipboard.js" type="text/javascript"></script>');
-				$this->EE->cp->add_to_foot('<script type="text/javascript" src="'.$theme_url.'third_party/copee_pastee_assets/js/jquery.livequery.js"></script>');
 			 	$this->EE->cp->add_to_foot('<script type="text/javascript" src="'.$theme_url.'third_party/copee_pastee_assets/js/copee_pastee_functions.js"></script>');
 			 	$this->EE->cp->add_to_foot('<link rel="stylesheet" href="'.$theme_url.'third_party/copee_pastee_assets/css/copee_pastee_style.css" type="text/css" media="screen" />');
 			 	$this->EE->cp->add_to_foot('
