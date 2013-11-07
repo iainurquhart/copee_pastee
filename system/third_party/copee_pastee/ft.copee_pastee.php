@@ -74,6 +74,11 @@
 			);
 		}
 
+		public function display_field($data)
+		{
+		    //nothing
+		}
+
 		public function replace_tag($data, $params = FALSE, $tagdata = FALSE)
 		{
 			//nothing
